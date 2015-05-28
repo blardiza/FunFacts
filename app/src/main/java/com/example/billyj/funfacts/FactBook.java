@@ -20,6 +20,59 @@ public class FactBook {
             "On average, it takes 66 days to form a new habit.",
             "Mammoths still walked the earth when the Great Pyramid was being built." };
 
+    //try to create an image./.
+    private Page[] mPages;
+
+    public FactBook() {
+        mPages = new Page[7];
+
+        mPages[0] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+
+        mPages[1] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+
+        mPages[2] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+
+        mPages[3] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+
+        mPages[4] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+
+        mPages[5] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+
+        mPages[6] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+
+        mPages[7] = new Page(
+                R.drawable.Fact1,
+                "Ants stretch when they wake up in the morning."
+        );
+    }
+
+
+
+
+
+
+
     // Method (abilities:things the object can do)
     public String getFact() {
 
